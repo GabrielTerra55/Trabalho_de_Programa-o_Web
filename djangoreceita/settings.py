@@ -28,7 +28,7 @@ SECRET_KEY = '4%jjfjv0v%0ddyt@24gocsn82gl_gu%hr%34!k*ip_db5!8!v$'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-'trabalho-de-programa-o-web.vercel.app',
+    'trabalhodeprograma-oweb-production.up.railway.app',
 ]
 
 
