@@ -24,3 +24,21 @@ Após essa configurações já sera possivel rodar a aplicação utilizando-o
 ```
 python manage.py runserver
 ```
+<h2>Projeto</h2>
+Comunidade de Receitas: Resgatando e Compartilhando Tradições Culinárias
+
+No mundo atual, com o avanço das redes sociais, vemos praticamente tudo sendo postado e compartilhado. No entanto, aqueles preciosos livros de receitas antigos que nossos pais, avós e até bisavós possuíam acabam se perdendo no tempo, sujeitos a mofo, mudanças ou deterioração. O objetivo deste projeto é resgatar e manter vivas as receitas tradicionais de família, preservando também as histórias por trás de cada simples almoço, sobremesa e muito mais.
+
+Nossa aplicação web oferece um cadastro simples para os usuários, onde eles podem criar uma conta com seu e-mail e senha. Após o registro, eles terão a possibilidade de cadastrar suas próprias receitas, fornecendo informações como nome, ingredientes, modo de preparo, foto, tempo de preparo e rendimento.
+
+No entanto, antes de uma receita ser publicada, passará por uma análise de um moderador da comunidade. Essa avaliação tem o objetivo de garantir que todas as postagens estejam de acordo com as políticas da comunidade, evitando qualquer conteúdo inadequado ou indesejado. As receitas podem ser aprovadas ou rejeitadas, garantindo um ambiente seguro e confiável para todos os usuários.
+
+Além disso, a aplicação também conta com uma página inicial que apresenta um feed com todas as receitas aprovadas. Assim, os usuários têm acesso rápido e fácil a uma variedade de pratos tradicionais compartilhados por outros membros da comunidade.
+
+Junte-se a nós e faça parte dessa comunidade apaixonada por gastronomia, onde as tradições culinárias são preservadas e compartilhadas, conectando gerações e sabores de todo o mundo.
+
+<h2>Alunos</h2>
+Gabriel Terra <br>
+Hermelan <br>
+Vinícius <br>
+Marcelo Oliveira
