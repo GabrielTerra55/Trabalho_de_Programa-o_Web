@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'djangoreceita.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'trabalho-web',
+        'NAME': 'verceldb',
         'USER': 'default',
         'PASSWORD': '1JtTsROFCA2y',
         'HOST': 'ep-crimson-band-516829-pooler.us-east-1.postgres.vercel-storage.com',
