@@ -141,6 +141,6 @@ MESSAGE_TAGS = {
 }
 
 PROJECT_ROOT = os.path.dirname(__file__)
-sys.path.insert(0, os.path.join(PROJECT_ROOT, '../apps'))
+sys.path.insert(0, os.path.join(PROJECT_ROOT, '/apps'))
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
