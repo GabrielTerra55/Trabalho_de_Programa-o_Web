@@ -82,7 +82,8 @@ DATABASES = {
         'NAME': 'trabalho-web',
         'USER': 'default',
         'PASSWORD': '1JtTsROFCA2y',
-        'HOST': 'ep-crimson-band-516829-pooler.us-east-1.postgres.vercel-storage.com'
+        'HOST': 'ep-crimson-band-516829-pooler.us-east-1.postgres.vercel-storage.com',
+        'OPTIONS': {'sslmode': 'require'},
     }
 }
 
