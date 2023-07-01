@@ -27,7 +27,7 @@ SECRET_KEY = '4%jjfjv0v%0ddyt@24gocsn82gl_gu%hr%34!k*ip_db5!8!v$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh', 'trabalho-de-programa-o-web.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
 # Application definition
 
@@ -70,8 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djangoreceita.wsgi.application'
-
+WSGI_APPLICATION = 'vercel_app.wsgi.app'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
