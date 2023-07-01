@@ -77,9 +77,12 @@ WSGI_APPLICATION = 'djangoreceita.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'trabalho-web',
+        'USER': 'default',
+        'PASSWORD': '1JtTsROFCA2y',
+        'HOST': 'ep-crimson-band-516829-pooler.us-east-1.postgres.vercel-storage.com'
     }
 }
 
