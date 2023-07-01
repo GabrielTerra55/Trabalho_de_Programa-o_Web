@@ -39,11 +39,10 @@ def cria_receita(request):
         tempo_preparo = request.POST['tempo_preparo']
         rendimento = request.POST['rendimento']
         categoria = request.POST['categoria']
-        #foto_receita = request.FILES['foto_receita']
 
         user = get_object_or_404(User, pk=request.user.id)
         receita = Receita.objects.create(pessoa=user, nome_receita=nome_receita, ingredientes=ingredientes, modo_preparo=modo_preparo,
-                                         tempo_preparo=tempo_preparo, rendimento=rendimento, categoria=categoria, foto_receita=foto_receita)
+                                         tempo_preparo=tempo_preparo, rendimento=rendimento, categoria=categoria)
         receita.save()
         return redirect('dashboard')
     else:
